@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flexbox;
+    background: linear-gradient(to right, #304CA8, #AFA44F);
+    color: white;
+    text-align: center;
+}
+
+#header{
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-size: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#current-background, h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#color-name{
+    color: black;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 40px 0;
+}
+
+button{
+    padding: 20px 35px;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button:hover{background-color: #323135;}
+button:active{background-color: #272727;}
